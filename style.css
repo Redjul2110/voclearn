@@ -1,0 +1,27 @@
+body {
+    background: #0f0f0f;
+    color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 400px;
+}
+
+.folder {
+    background: #1a1a1a;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.folder:hover {
+    background: orange;
+    color: black;
+}
